@@ -7,25 +7,23 @@ package paquete04;
 
 /**
  *
- * @author reroes
+ * @author usuario
  */
-public class TransporteTaxi extends Transporte {
-    private String cooperativaTaxi;
+public class TransporteTransvia extends Transporte{
+    private String cooperativaTransvia;
     
     
-    public void establecerCooperativaTaxi(String n){
-        cooperativaTaxi = n;
+    public void establecerCooperativaTransvia(String n){
+        cooperativaTransvia = n;
     }
     
     @Override
     public void establecerTarifa(){
-        tarifa = 0.40 + (0.40*0.5);
+        tarifa = 185.60;
     }
     
     
     public String obtenerCooperativaTaxi(){
-        return cooperativaTaxi;
+        return cooperativaTransvia;
     }
-        
-    
 }
