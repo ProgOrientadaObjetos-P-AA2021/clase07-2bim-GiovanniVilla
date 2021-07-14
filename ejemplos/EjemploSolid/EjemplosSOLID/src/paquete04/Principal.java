@@ -37,7 +37,7 @@ public class Principal {
         lista.add(taxi);
         lista.add(t3);
         lista.add(aereo);
-        lista.add(aereo);
+        lista.add(mar);
         
         TiposTransporte tipos = new TiposTransporte();
         tipos.establecerTransportes(lista);
